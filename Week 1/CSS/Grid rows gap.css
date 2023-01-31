@@ -1,0 +1,12 @@
+.grid {
+    display: grid;
+    /* ratio as to as */
+    grid-template-rows: 1fr 1fr 4fr;
+    grid-auto-rows: 2fr;
+    grid-template-columns: repeat(10,2fr);
+    grid-gap: 1rem;
+}
+.box {
+    background-color: aqua;
+    border: 2px solid red;
+}

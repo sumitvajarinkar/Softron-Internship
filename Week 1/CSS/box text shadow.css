@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+}
+
+.card {
+    padding: 23px 12px;
+    margin: 23px 12px;
+    /* border: 2px solid red; */
+    background-color: aqua;
+
+    /* positive up
+    negative down */
+    /* box-shadow: offset-x offset-y color; */
+    /* dark radius
+     up down */
+    /* box-shadow: 10px 13px rgba(92, 231, 231, 0.514); */
+    /* box-shadow: -10px -13px rgba(199, 86, 58, 0.514); */
+
+    /* box-shadow: offset-x offset-y spread radius; */
+    /* blur radius
+     up down */
+    box-shadow: 7px 5px 10px rgba(199, 86, 58, 0.514);
+    /* box-shadow: -7px -5px 10px rgba(199, 86, 58, 0.514); */
+
+    /* box-shadow: offset-x offset-y blur radius; */
+    /* Spread radius */
+    /* box-shadow: 7px 5px 10px 4px rgba(199, 86, 58, 0.514); */
+    
+    /* inside border use inset */
+    /* box-shadow: inset 3px 3px red, 3px 3px rgb(255, 241, 47); */
+
+}
+.card h2{
+    text-shadow: 3px 2px rgb(255, 255, 255);
+    /* text-shadow: 3px 4px 4px white; */
+
+}

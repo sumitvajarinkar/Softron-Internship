@@ -1,0 +1,54 @@
+.container {
+    background-color: aquamarine;
+    display: flex;
+}
+
+.box {
+    background-color: rgb(255, 0, 255);
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* main */
+    /* animation-name: sumit; */
+    /* animation-name: sumit1;
+    animation-duration: 5s;
+    animation-iteration-count: 3; */
+    /* infinite */
+    /* animation-fill-mode: alternate; */
+    /* animation-timing-function: ease-out; */
+    /* animation-delay: 2s; */
+    /* animation-direction: reverse; */
+
+    /* shorthand */
+    /* animation: animation-name duration timing functiom delay iteration count fill mod; */
+    /* animation:sumit3 5s ease-in 1sec 12 backwards;  */
+}
+
+@keyframes sumit3{
+    0%{
+
+        top: 0px;
+        left: 0px;
+    }
+    25%{
+        top:250px;
+        left: 0px;
+    }
+    50%{
+        top:250px;
+        left:250px;
+    }
+    100%{
+        top: 0px;
+        left: 250px;
+    }      
+  }
+/* @keyframes sumit {
+    from {
+        width: 200px;
+    }
+
+    to {
+        width: 400px;
+    }
+} */

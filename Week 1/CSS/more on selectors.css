@@ -1,0 +1,27 @@
+h1 {
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* if p is contained y any li which is contined by div */
+/* div li p{
+    color: yellow;
+    background-color: brown;
+    font-weight: 900;
+} */
+
+/* div > p if p is right inside div then this css will applied */
+/* div > p{
+    color: yellow;
+    background-color: brown;
+    font-weight: 900;
+} */
+
+/* if p is right after div(p next sibling of div) */
+div + p{
+    color: white;
+    background-color: rgba(51, 255, 0, 0.883);
+
+}

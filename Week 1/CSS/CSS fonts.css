@@ -1,0 +1,12 @@
+p{
+    font-family:'Langar', cursive;
+    /* 1/96th of inch */
+    font-size: 30px;
+    /* height from normal space */
+    line-height: 2em;
+    font-weight: bold;
+}
+span{
+    font-weight:100;
+    font-style: oblique;
+}

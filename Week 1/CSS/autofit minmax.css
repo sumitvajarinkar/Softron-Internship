@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-gap: 1rem;
+    /* grid-template-columns: 112px 112px 112px; */
+    /* grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center; */
+
+    /* responsive */
+    /* grid-template-columns: repeat(Auto-fit, minmax(100px, 200px)); */
+    grid-template-columns: repeat(Auto-fit, minmax(300px, 1fr));
+}
+
+.box {
+    border: 2px solid aqua;
+    background-color: rgb(209, 181, 139);
+    padding: 34px;
+}

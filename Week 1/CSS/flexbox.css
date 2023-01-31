@@ -1,0 +1,68 @@
+.container {
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    /* initialise the container as a flex */
+    display: flex;
+    /* by default row */
+    /* flex properties for flex container */
+    /* flex-direction: row;  */
+    /*reverse sixth first*/
+
+    /*Responsive*/
+    flex-wrap: no-wrap;
+    /*Default no-wrap*/
+    /* reverse is also out of container border*/
+    /* flex-flow: row wrap;   */
+    /* short hand */
+
+    /* justify content will justify the content in horizontal direction */
+    /* justify-content: center; */
+    /* justify-content: space-around;  */
+    /*around : left right of box same space
+     evenly : all even
+      between : betn box
+     */
+    /* justify content will justify the content in horizontal direction */
+    /* align-items:center; */
+    /* flex-direction: column; */
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid rgba(67, 230, 67, 0.835);
+    margin: 10px;
+    padding: 3px;
+}
+
+#item1 {
+    /* flex prperties for item */
+    /* heigher the order later it show in the container */
+    /* order: 2; */
+
+/*              
+    flex-grow: 2;
+    flex-shrink: 2; */
+
+    /* when flex direction set to row flex basis will control width */
+
+    /* depends if default will be row */
+
+    /* when flex direction set to column flex basis will control height */
+    flex-basis: 300px;
+}
+
+#item2 {
+
+}
+
+#item3 {
+        /* flex: 2 2 230px; */
+        align-self: flex-start;
+        align-self: flex-end;
+        align-self: center;
+
+
+}

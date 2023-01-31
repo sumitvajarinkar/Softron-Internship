@@ -1,0 +1,26 @@
+/* global variable */
+:root{
+    --primary-color: rgb(255, 0, 255);
+    --secondary-color: rgb(0, 255, 255);
+    --maxw: 333PX;
+
+}
+.box{
+    /* local variable */
+    /* --box-color: rgb(255, 0, 255); */
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+    box-shadow: 3px 3px 10px var(--primary-color);
+    margin: 2px 9px;
+}
+.container{
+    max-width: var(--maxw);
+    margin: auto;
+    background-color:bisque;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* background-color: var(--secondary-color); */
+}

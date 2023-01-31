@@ -1,0 +1,15 @@
+#firstpara{
+    /* color by name*/
+    color: rgb(230, 55, 32); 
+    background-color: yellowgreen;
+ }
+#secondpara{
+    /* you can change RGB value */
+    color: rgb(15,255,100); 
+    
+ }
+#thirdpara{
+    /* hex color */
+    color: #ccd63f;; /* color by name*/
+    background-color: rgb(18, 31, 155);
+ }

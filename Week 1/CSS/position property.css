@@ -1,0 +1,38 @@
+.container{
+    border:2px solid aqua;
+    background-color: blueviolet;
+    height:3444px;
+}
+/* CSS position: static(default), relative,absolute,fixed,sticky */
+.box{
+    display: inline-block;
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    margin: 2px;
+
+}
+#box3{
+    /* relative: position the element relative to its normal position and will leave a gap */
+
+    /* position: relative;
+    top: 30px;
+    right: 30px; */
+
+    /* absolute: relative to position of its first parent */
+
+    /* position: absolute;
+    top: 30px;
+    right: 30px;*/
+
+    /* fixed:position the element to browser window for contact us administrator */
+
+    /* position:fixed;
+    right: 5px;
+    bottom: 2px; */
+
+    /* sticky:  */
+    position:sticky;
+    top: 3px;
+
+}
