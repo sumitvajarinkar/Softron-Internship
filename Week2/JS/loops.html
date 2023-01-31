@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops</title>
+</head>
+<body>
+    <div class="container">
+        This is about loops
+    </div>
+    <script>
+        console.log('Hi..')
+        // let i=0
+        // for(let i=0;i<3;i++)
+        // {
+        //     console.log(i)
+        // }
+
+        let friends=['sumit', 'shubham','saket','rajesh','neha']
+        // 3 types of iteration
+
+        // for (let index = 0; index < friends.length; index++) {
+        //     console.log('Hello friend, '+ friends[index]);
+        // }
+
+        // modern JS
+        //for each
+
+        // friends.forEach(function f(element)
+        // {
+        //     console.log('Hello friend, '+ element)
+        // })
+
+        //for of
+        // for(element of friends)
+        // {
+        //     console.log('hello friend, '+ element)
+        // }
+        
+        let employee =
+        {
+            name :'Sumit',
+            salary :1,
+            work :'TSF'
+        }
+
+        // use this loops to iterate over Objects in JS
+        for(key in employee)
+        {
+            // console.log(`The ${key} of employee is ${employee[key]}`)
+            console.log('The '+key+ 'of employee is ' + employee[key])
+        }
+
+        //while loop
+        let i=0
+        while(i<4)
+        {
+            console.log(`${i} is less than 4`)
+            i++
+        }
+
+        // do while must executes once
+        let j=6
+        do{
+            console.log(`${j} is less than 5 inside do while`)
+            j++
+        }while(j<5)
+    </script>
+</body>
+</html>

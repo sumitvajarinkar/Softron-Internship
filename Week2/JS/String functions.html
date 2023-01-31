@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings Functions</title>
+</head>
+
+<body>
+    <div class="container">
+
+    </div>
+    <script>
+        var str = "This is a String"
+        console.log(str)
+        // index start with 0 
+        //gives 1st occurence of substring
+        var position = str.indexOf('is')
+        console.log(position)
+        // gives lastst occurence of substring
+        position = str.lastIndexOf('is')
+        console.log(position)
+
+        // substring from a string (6-1= 1 to 5)
+        // .slice gives -ve value or .substring not
+        // .substr(1 to 6 means 1 to 6)
+
+        var str1 = str.substr(1, 6)
+        console.log(str1)
+
+        //replacing
+
+        // var replaced = str.replace('string','sumit')
+        // console.log(str)
+        // console.log(replaced)
+
+        //upper lower
+
+        // console.log(str.toUpperCase())
+        // console.log(str.toLowerCase())
+
+        // concatenation or + operator for concat
+
+        // var newString = str.concat(' new string')
+        // console.log(newString)
+
+        // remove start and end white space only
+
+        // var Whitespaces = "   this is   white  space    "
+        // console.log(Whitespaces.trim())
+
+        // charCodeAt gives UTF code of char
+
+        // var char=str.charAt(1)
+        // console.log(char)
+
+        console.log(str[2])
+
+    </script>
+</body>
+
+</html>

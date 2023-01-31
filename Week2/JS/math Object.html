@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Object</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Math object tutorial</h1>
+    </div>
+    <script>
+
+        //printing math object cheatsheet
+        let m = Math;
+        console.log(m)
+
+        //constant in math object
+        console.log('The math value E is ', Math.E)
+        console.log('The math value PI is ', Math.PI)
+        console.log('The math value LN10 is ', Math.LN10)
+        console.log('The math value LOG2E is ', Math.LOG2E)
+
+        //Function in math object
+        let a = 45.567;
+        let b = 23.567;
+        console.log('The value of a and b is ', a, b)
+        console.log('The value of a and b rounded is ', Math.round(a), Math.round(b))
+
+        console.log('8 raised to power of 2', Math.pow(8, 2))
+
+        console.log('16 square root is', Math.sqrt(16))
+
+        console.log('Rounded up of 14.3', Math.ceil(14.8))
+
+        console.log('Rounded down of 14.8', Math.floor(14.8))
+
+        // absolute function
+
+        console.log('absolute value of 5.86', Math.abs(5.86))
+        console.log('absolute value of 5.86', Math.abs(-5.86))
+
+
+        //trignometric function
+        console.log('The value of sin(90) is ', Math.sin(Math.PI))
+        console.log('The value of cos(90) is ', Math.sin(Math.PI))
+        console.log('The value of tan(90) is ', Math.sin(Math.PI))
+
+        // min max
+        console.log('Minimum is ', Math.min(5, 2, 6, 7));
+        console.log('Maximum is ', Math.max(5, 345, 6, 7));
+
+        //random no.
+        let r = Math.random();
+        //random no. b/w (a,b) = a + (b-a)*Math.random()
+        let p = 1;
+        let q = 100;
+        let r1_100 = p + (q-p)*Math.random();
+        console.log('Random no. is ', r1_100.toFixed());
+
+
+    </script>
+</body>
+
+</html>

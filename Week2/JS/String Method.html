@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Lorem ipsum dolor sit.
+        </h2>
+        <div id="content"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus rerum molestiae veritatis porro, dolorum
+            facilis aut velit impedit laborum ex a rem tempora expedita sit adipisci ducimus ut optio doloremque ratione
+            minus ipsam pariatur! Quos vitae excepturi saepe voluptates accusamus!</p>
+    </div>
+    <script>
+        // you can use ' ' or " " or ` `
+        var string = 'This is'
+        var name = 'Sumit'
+        var msg='Sumit is a good boy';
+        // console.log(string +' '+name +" " + msg)
+        var temp = `${name} is a nice person and he has ${name}`
+        // console.log(temp)
+        var len=name.length
+        // console.log(`Length of name is ${len}`)
+        // \n \t \b is ESC escape sequence char
+        // to print \ put \\
+        // console.log("hello \\ world\nSumit\tvajarinkar\bOP")
+        var y= new String("this")
+        // console.log(y)
+
+        //dynamically element insertedin DOM(Document object model)
+        document.getElementById('content').innerHTML='<h3>this is a h3 heading'
+
+    </script>
+</body>
+
+</html>

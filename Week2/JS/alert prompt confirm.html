@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interation with alert prompt confirm</title>
+</head>
+
+<body>
+    <div class="container">This is page</div>
+    <script>
+        //alert in in-browser JS does'nt return anything
+        //modal window
+        //alert is undefined
+
+        // let a = alert('This is a message')
+        // console.log(a) 
+
+        //prompt
+
+        // let name = prompt('What is your good name ?', 'Guest Name')
+        // console.log(name)
+
+        //confirm
+
+        // let deletePost=confirm("Do you, really want to remove it ?")
+        // if(deletePost)
+        // {
+        //     // if true
+        //     console.log('Your post has been deleted successfully :)')
+        // }
+        // else{
+        //     // if false
+        //     console.log('Your post has not been deleted :(')
+        // }
+
+        // project
+        // If people above 18 yrs. old allow in club
+
+        let eligible=confirm("Really, are you 18 years old ?")
+        if(eligible)
+        {
+            console.log("Congratulations ! You're in")
+        }
+        else{
+            console.log("Sorry, you're not eligible")
+        }
+
+        // let age=prompt("What is your age ?")
+        // if(age >= 18)
+        // {
+        //     console.log("Congratulations ! You're in")
+        // }
+        // else{
+        //     console.log("Sorry, you're not eligible")
+        // }
+    </script>
+</body>
+
+</html>
